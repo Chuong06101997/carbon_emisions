@@ -22,6 +22,7 @@ SELECT product_name, ROUND(carbon_footprint_pcf,2) AS 'Average'  FROM product_em
 GROUP BY product_name 
 ORDER BY carbon_footprint_pcf DESC
 LIMIT 10;
+```
 |product_name|Average|
 |------------|-------|
 |Wind Turbine G128 5 Megawats|3718044|
