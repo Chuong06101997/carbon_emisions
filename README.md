@@ -7,6 +7,7 @@ This report aims to analyze carbon emissions to examine the carbon footprint acr
 ### 1.1 Data model
 The dataset consists of 4 tables containing information regarding carbon emissions generated during the production of goods.
 https://lms.swisscoding.edu.vn/pluginfile.php/19033/mod_label/intro/Database%20diagram.png
+![image](https://github.com/user-attachments/assets/fa9bc8f7-6027-4d6f-b1a4-f7df14fb2c85)
 
 ## 1.2 Data Structure
 The dataset consists of 4 tables containing information regarding carbon emissions generated during the production of goods.
