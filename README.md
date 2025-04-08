@@ -47,6 +47,7 @@ JOIN industry_groups ig
 GROUP BY pe.product_name, ig.industry_group
 ORDER BY pe.carbon_footprint_pcf DESC
 LIMIT 10;
+```
 |product_name|Average|industry_group|
 |------------|-------|--------------|
 |Wind Turbine G128 5 Megawats|3718044|Electrical Equipment and Machinery|
@@ -69,6 +70,7 @@ JOIN industry_groups ig ON ig.id = pe.industry_group_id
 GROUP BY ig.industry_group
 ORDER BY ROUND(SUM(pe.carbon_footprint_pcf), 2) DESC
 LIMIT 10;
+```
 |industry_group|Total PCF|
 |--------------|---------|
 |Electrical Equipment and Machinery|9801558.00|
@@ -92,7 +94,7 @@ GROUP BY cm.company_name
 ORDER BY Total DESC
 LIMIT 10;
 ```
-```
+
 |company_name|Total|
 |------------|-----|
 |"Gamesa Corporación Tecnológica, S.A."|9778464.00|
