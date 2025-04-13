@@ -146,7 +146,7 @@ LIMIT 10;
 |Mercedes-Benz SL (SL 350)|72000|
 
 ## Conclusion:
-### Among the analyzed products, Wind Turbines dominate the list with the highest average carbon footprints. The Wind Turbine G128 5 Megawatts tops the chart with an average emission of over 3.7 million units, followed by the G132 and G114 models. These figures reflect the substantial environmental cost associated with manufacturing and deploying large-scale renewable energy infrastructure. In contrast, vehicles like the Mercedes-Benz GLE and S-Class, as well as construction-related products, have significantly lower average emissions, indicating a wide variance in carbon footprints across different product categories.
+Among the analyzed products, Wind Turbines dominate the list with the highest average carbon footprints. The Wind Turbine G128 5 Megawatts tops the chart with an average emission of over 3.7 million units, followed by the G132 and G114 models. These figures reflect the substantial environmental cost associated with manufacturing and deploying large-scale renewable energy infrastructure. In contrast, vehicles like the Mercedes-Benz GLE and S-Class, as well as construction-related products, have significantly lower average emissions, indicating a wide variance in carbon footprints across different product categories.
 
 
 
@@ -177,7 +177,7 @@ LIMIT 10;
 |Mercedes-Benz SL (SL 350)|72000|Automobiles & Components|
 
 ##Conclusion:
-###The products analyzed span multiple industry groups, with a heavy concentration in Electrical Equipment and Machinery, particularly Wind Turbines, which dominate the highest carbon footprints. The Automobiles & Components sector also contributes significantly, with several Mercedes-Benz models and other vehicle types like the Land Cruiser. The Materials industry, including products like Retaining wall structures and TCDE, shows a moderate level of emissions. This distribution highlights the major environmental impact of industries involved in heavy machinery, vehicles, and construction materials.
+The products analyzed span multiple industry groups, with a heavy concentration in Electrical Equipment and Machinery, particularly Wind Turbines, which dominate the highest carbon footprints. The Automobiles & Components sector also contributes significantly, with several Mercedes-Benz models and other vehicle types like the Land Cruiser. The Materials industry, including products like Retaining wall structures and TCDE, shows a moderate level of emissions. This distribution highlights the major environmental impact of industries involved in heavy machinery, vehicles, and construction materials.
 
 ### 3.3 What are the industries with the highest contribution to carbon emissions ?
 ```SQL
@@ -204,7 +204,7 @@ LIMIT 10;
 |Media|23017.00|
 
 ##Conclusion:
-###The Electrical Equipment and Machinery sector is the largest contributor to carbon emissions in the dataset, with a total of approximately 9.8 million units, far exceeding any other industry group. Following that, the Automobiles & Components industry comes in second with 2.58 million units, reflecting the high carbon cost of manufacturing vehicles and components. The Materials and Technology Hardware & Equipment sectors show emissions of 577,595 and 363,776 units respectively, which are significant but much lower than the leading sectors. Other industries, such as Food, Beverage & Tobacco, Pharmaceuticals, and Software & Services, contribute relatively smaller amounts, with emissions ranging from 23,000 to 111,000 units. This data suggests that high-emission industries like Electrical Equipment and Automobiles dominate the total carbon footprint, while industries like Software & Services and Media are less impactful in terms of carbon emissions.
+The Electrical Equipment and Machinery sector is the largest contributor to carbon emissions in the dataset, with a total of approximately 9.8 million units, far exceeding any other industry group. Following that, the Automobiles & Components industry comes in second with 2.58 million units, reflecting the high carbon cost of manufacturing vehicles and components. The Materials and Technology Hardware & Equipment sectors show emissions of 577,595 and 363,776 units respectively, which are significant but much lower than the leading sectors. Other industries, such as Food, Beverage & Tobacco, Pharmaceuticals, and Software & Services, contribute relatively smaller amounts, with emissions ranging from 23,000 to 111,000 units. This data suggests that high-emission industries like Electrical Equipment and Automobiles dominate the total carbon footprint, while industries like Software & Services and Media are less impactful in terms of carbon emissions.
 
 ### 3.4. What are the companies with the highest contribution to carbon emissions ?
 ```SQL
@@ -232,7 +232,7 @@ LIMIT 10;
 |"Daikin Industries, Ltd."|105600.00|
 
 ##Conclusion:
-###From the dataset, Gamesa Corporación Tecnológica, S.A. emerges as the top emitter, with a staggering total of approximately 9.78 million units, far surpassing all other companies. The next highest contributors, such as Daimler AG and Volkswagen AG, report emissions of around 1.59 million and 656,000 units respectively—still significant but considerably lower than Gamesa. This sharp gap highlights the dominant carbon footprint associated with Gamesa, likely due to the scale or nature of its operations. Other companies in the top 10, including Mitsubishi Gas Chemical, General Motors, and Daikin Industries, show relatively moderate emissions. The data reflects a strong concentration of emissions among a few large manufacturers, suggesting targeted opportunities for corporate sustainability improvements.
+From the dataset, Gamesa Corporación Tecnológica, S.A. emerges as the top emitter, with a staggering total of approximately 9.78 million units, far surpassing all other companies. The next highest contributors, such as Daimler AG and Volkswagen AG, report emissions of around 1.59 million and 656,000 units respectively—still significant but considerably lower than Gamesa. This sharp gap highlights the dominant carbon footprint associated with Gamesa, likely due to the scale or nature of its operations. Other companies in the top 10, including Mitsubishi Gas Chemical, General Motors, and Daikin Industries, show relatively moderate emissions. The data reflects a strong concentration of emissions among a few large manufacturers, suggesting targeted opportunities for corporate sustainability improvements.
 
 ### 3.5. What are the countries with the highest contribution to carbon emissions ?
 ```SQL
@@ -259,7 +259,7 @@ LIMIT 10;
 |India|9328.00|
 
 ##Conclusion:
-###The data indicates that Germany is by far the largest contributor to carbon emissions, with a total of approximately 9.78 million units, making it a significant outlier compared to other countries. The next highest contributors — Lithuania and Greece — have emissions of just over 200,000 and 190,000 units respectively, which are only small fractions of Germany's total. The rest of the countries in the top 10, including Japan, Colombia, and South Africa, show much lower emission levels, gradually decreasing to India at around 9,300 units. This stark contrast suggests that Germany plays a disproportionately large role in overall emissions within the dataset, possibly due to industrial scale, product types, or reporting volume.
+The data indicates that Germany is by far the largest contributor to carbon emissions, with a total of approximately 9.78 million units, making it a significant outlier compared to other countries. The next highest contributors — Lithuania and Greece — have emissions of just over 200,000 and 190,000 units respectively, which are only small fractions of Germany's total. The rest of the countries in the top 10, including Japan, Colombia, and South Africa, show much lower emission levels, gradually decreasing to India at around 9,300 units. This stark contrast suggests that Germany plays a disproportionately large role in overall emissions within the dataset, possibly due to industrial scale, product types, or reporting volume.
 
 ### 3.6. What is the trend of carbon footprints (PCFs) over the years ?
 ```SQL
@@ -277,7 +277,7 @@ ORDER BY Total_PCFs_OVER_YEARS DESC;
 |2017|340271|
 
 ##Conclusion:
-###The data reveals a sharp fluctuation in carbon footprints over the years. The year 2015 recorded the highest total PCFs, reaching over 10.8 million units, which is significantly higher than all other years. This spike is followed by a dramatic drop in 2016 to around 1.64 million, and an even lower trend continues in the surrounding years. The earlier years, such as 2013 and 2014, show relatively moderate emissions, while 2017 marks the lowest total in the dataset. This trend may suggest either a major emission event in 2015, improved sustainability practices after that year, or potential gaps in data collection across different years.
+The data reveals a sharp fluctuation in carbon footprints over the years. The year 2015 recorded the highest total PCFs, reaching over 10.8 million units, which is significantly higher than all other years. This spike is followed by a dramatic drop in 2016 to around 1.64 million, and an even lower trend continues in the surrounding years. The earlier years, such as 2013 and 2014, show relatively moderate emissions, while 2017 marks the lowest total in the dataset. This trend may suggest either a major emission event in 2015, improved sustainability practices after that year, or potential gaps in data collection across different years.
 
 ### 3.7. Which industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time ?
 
