@@ -247,6 +247,21 @@ LIMIT 10;
 
 ### 3.6. What is the trend of carbon footprints (PCFs) over the years ?
 ```SQL
+SELECT  year, SUM(carbon_footprint_pcf) AS 'Total PCFs OVER YEARS'
+ FROM  product_emissions 
+ GROUP BY year;
+```
+|year|Total PCFs OVER YEARS|
+|----|---------------------|
+|2013|503857|
+|2014|624226|
+|2015|10840415|
+|2016|1640182|
+|2017|340271|
+
+### 3.7. Which industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time ?
+
+```SQL
 SELECT 
     ig.industry_group AS 'Industry Group',
     ROUND(SUM(CASE WHEN pe.year = 2013 THEN pe.carbon_footprint_pcf ELSE 0 END), 2) AS '2013 Emission',
@@ -297,7 +312,6 @@ ORDER BY
 |Capital Goods|60190.00|93699.00|3505.00|6369.00|94949.00|
 |Materials|200513.00|75678.00|0.00|88267.00|213137.00|
 
-### 3.7. Which industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time ?
 
 
 
