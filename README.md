@@ -175,7 +175,7 @@ LIMIT 10;
 ```SQL
 SELECT 
     ig.industry_group,
-    ROUND(SUM(pe.carbon_footprint_pcf), 2) AS 'Total'
+    ROUND(SUM(pe.carbon_footprint_pcf), 2) AS 'Total PCF'
 FROM product_emissions pe
 JOIN industry_groups ig ON ig.id = pe.industry_group_id
 GROUP BY ig.industry_group
