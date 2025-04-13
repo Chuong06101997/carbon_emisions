@@ -144,9 +144,9 @@ LIMIT 10;
 |Mercedes-Benz GLE (GLE 500 4MATIC)|91000|
 |Mercedes-Benz S-Class (S 500)|85000|
 |Mercedes-Benz SL (SL 350)|72000|
-```
 
-```SQL
+### 3.2. What are the industry groups of these products ?
+```sql
 SELECT 
     pe.product_name, 
     ROUND(pe.carbon_footprint_pcf, 2) AS Average,  
@@ -170,7 +170,8 @@ LIMIT 10;
 |Mercedes-Benz GLE (GLE 500 4MATIC)|91000|Automobiles & Components|
 |Mercedes-Benz S-Class (S 500)|85000|Automobiles & Components|
 |Mercedes-Benz SL (SL 350)|72000|Automobiles & Components|
-```
+
+### 3.3 What are the industries with the highest contribution to carbon emissions ?
 ```SQL
 SELECT 
     ig.industry_group,
@@ -193,7 +194,8 @@ LIMIT 10;
 |Chemicals|62369.00|
 |Software & Services|46544.00|
 |Media|23017.00|
-```
+
+### 3.4. What are the companies with the highest contribution to carbon emissions ?
 ```SQL
 SELECT 
     cm.company_name ,
@@ -218,6 +220,7 @@ LIMIT 10;
 |"Lexmark International, Inc."|132012.00|
 |"Daikin Industries, Ltd."|105600.00|
 
+### 3.5. What are the countries with the highest contribution to carbon emissions ?
 ```SQL
 SELECT 
     cm.country_name ,
@@ -242,6 +245,7 @@ LIMIT 10;
 |India|9328.00|
 ```SQL
 
+### 3.6. What is the trend of carbon footprints (PCFs) over the years ?
 SELECT 
     ig.industry_group AS 'Industry Group',
     ROUND(SUM(CASE WHEN pe.year = 2013 THEN pe.carbon_footprint_pcf ELSE 0 END), 2) AS '2013 Emission',
@@ -259,7 +263,6 @@ ORDER BY
     `2014 Emission` ,
     `2013 Emission`;
 ```
-
 |Industry Group|2013 Emission|2014 Emission|2015 Emission|2016 Emission|2017 Emission|
 |--------------|-------------|-------------|-------------|-------------|-------------|
 |Household & Personal Products|0.00|0.00|0.00|0.00|0.00|
@@ -293,7 +296,7 @@ ORDER BY
 |Capital Goods|60190.00|93699.00|3505.00|6369.00|94949.00|
 |Materials|200513.00|75678.00|0.00|88267.00|213137.00|
 
-
+### 3.7. Which industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time ?
 
 
 
