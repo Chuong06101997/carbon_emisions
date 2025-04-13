@@ -116,7 +116,7 @@ LIMIT 10;
 Duplicate result
 ```sql
 SELECT COUNT(product_name) AS 'Total number of product',
-			COUNT(DISTINCT(product_name)) AS 'Number of unique product'
+       COUNT(DISTINCT(product_name)) AS 'Number of unique product'
 FROM product_emissions;
 ```
 |Total number of product|Number of unique product|
@@ -153,7 +153,7 @@ SELECT
     ig.industry_group
 FROM product_emissions pe 
 JOIN industry_groups ig 
-    ON pe.industry_group_id = ig.id  -- JOIN theo industry_group_id
+    ON pe.industry_group_id = ig.id  
 GROUP BY pe.product_name, ig.industry_group
 ORDER BY pe.carbon_footprint_pcf DESC
 LIMIT 10;
