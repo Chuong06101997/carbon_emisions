@@ -243,9 +243,10 @@ LIMIT 10;
 |Italy|20000.00|
 |Ireland|11160.00|
 |India|9328.00|
-```SQL
+
 
 ### 3.6. What is the trend of carbon footprints (PCFs) over the years ?
+```SQL
 SELECT 
     ig.industry_group AS 'Industry Group',
     ROUND(SUM(CASE WHEN pe.year = 2013 THEN pe.carbon_footprint_pcf ELSE 0 END), 2) AS '2013 Emission',
