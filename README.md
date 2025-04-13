@@ -247,17 +247,19 @@ LIMIT 10;
 
 ### 3.6. What is the trend of carbon footprints (PCFs) over the years ?
 ```SQL
-SELECT  year, SUM(carbon_footprint_pcf) AS 'Total PCFs OVER YEARS'
+SELECT  year, SUM(carbon_footprint_pcf) AS 'Total_PCFs_OVER_YEARS'
  FROM  product_emissions 
- GROUP BY year;
+ GROUP BY year
+ORDER BY Total_PCFs_OVER_YEARS DESC;
 ```
-|year|Total PCFs OVER YEARS|
+|year|Total_PCFs_OVER_YEARS|
 |----|---------------------|
-|2013|503857|
-|2014|624226|
 |2015|10840415|
 |2016|1640182|
+|2014|624226|
+|2013|503857|
 |2017|340271|
+
 
 ### 3.7. Which industry groups has demonstrated the most notable decrease in carbon footprints (PCFs) over time ?
 
