@@ -2,10 +2,12 @@
 ## 1. Introduction
 
 This report aims to analyze carbon emissions to examine the carbon footprint across various industries. We aim to identify sectors with the highest levels of emissions by analyzing them across countries and years, as well as to uncover trends.
+
 ![image](https://github.com/user-attachments/assets/73a8cca6-dc21-4517-8cb9-384ee8a120ce)
 
 ### 1.1 Data model
 The dataset consists of 4 tables containing information regarding carbon emissions generated during the production of goods.
+
 ![image](https://github.com/user-attachments/assets/fa9bc8f7-6027-4d6f-b1a4-f7df14fb2c85)
 
 ## 1.2 Data Structure
