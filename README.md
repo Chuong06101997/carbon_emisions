@@ -332,6 +332,14 @@ ORDER BY
 |Capital Goods|60190.00|93699.00|3505.00|6369.00|94949.00|
 |Materials|200513.00|75678.00|0.00|88267.00|213137.00|
 
+## Conclusion:
+The industry with the highest carbon footprint in 2015 is Electrical Equipment and Machinery, recording over 9.8 million PCFs, a significant outlier compared to other industries. Emissions in general tend to peak in 2015 across many sectors. Notably, Automobiles & Components and Materials also show substantial contributions over multiple years, particularly in 2016 and 2017 respectively. Meanwhile, several industries have minimal or no emissions across all years, indicating either limited data or lower carbon output.
+
+## Overall Analysi:
+The products with the highest carbon emissions are typically linked to heavy industries. Notably, several automobile models — including the Land Cruiser Prado, Mercedes-Benz GLA, S-Class, and SL — are among the top emitters during production.
+Interestingly, the Pharmaceuticals, Biotechnology & Life Sciences sector ranks 7th in total emissions, reminding us that even our pursuit of health has an environmental cost.
+
+
 
 
 
