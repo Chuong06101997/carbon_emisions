@@ -145,6 +145,8 @@ LIMIT 10;
 |Mercedes-Benz S-Class (S 500)|85000|
 |Mercedes-Benz SL (SL 350)|72000|
 
+## Based on the data, Germany is the leading contributor to carbon emissions, with a total footprint of approximately 9.78 million units, significantly surpassing all other countries. It is followed by Lithuania and Greece, with emissions of 212,016 and 191,687 respectively. This considerable gap highlights Germany's prominent role in overall carbon emissions among the top 10 contributing countries.
+
 ### 3.2. What are the industry groups of these products ?
 ```sql
 SELECT 
