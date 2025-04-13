@@ -199,7 +199,7 @@ LIMIT 10;
 ```SQL
 SELECT 
     cm.company_name ,
-    ROUND(SUM(pe.carbon_footprint_pcf), 2) AS 'Total'
+    ROUND(SUM(pe.carbon_footprint_pcf), 2) AS 'Total PCF'
 FROM product_emissions pe
 JOIN companies cm ON cm.id = pe.company_id 
 GROUP BY cm.company_name
@@ -224,7 +224,7 @@ LIMIT 10;
 ```SQL
 SELECT 
     cm.country_name ,
-    ROUND(SUM(pe.carbon_footprint_pcf), 2) AS 'Total'
+    ROUND(SUM(pe.carbon_footprint_pcf), 2) AS 'Total PCF'
 FROM product_emissions pe
 JOIN countries cm ON cm.id = pe.company_id 
 GROUP BY cm.country_name
